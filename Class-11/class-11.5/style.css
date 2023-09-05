@@ -1,0 +1,105 @@
+.container{
+   width: 300px;
+   height: 300px;
+   margin: 20px auto;
+   background: #000;
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -ms-border-radius: 5px;
+   -o-border-radius: 5px;
+   position: relative;
+}
+
+.box{
+   width: 60px;
+   height: 60px;
+   background: orange;
+   font-size: 30px;
+   font-weight: bold;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: Arial, Helvetica, sans-serif;
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -ms-border-radius: 5px;
+   -o-border-radius: 5px;
+}
+
+.circle{
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+}
+
+.a{
+   position: absolute;
+   top: 0;
+   left: 0;
+}
+
+.b{
+   position: absolute;
+   top: 0;
+   right: 0;
+}
+
+/* .c{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   -webkit-transform: translate(-50%, -50%);
+   -moz-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   -o-transform: translate(-50%, -50%);
+} */
+
+.d{
+   position: absolute;
+   left: 0;
+   bottom: 0;
+}
+
+.e{
+   position: absolute;
+   right: 0;
+   bottom: 0;
+}
+
+.c{
+   position: absolute;
+   top: 44%;
+   left: 45%;
+   transform: translate(-50%, -50%);
+   -webkit-transform: translate(-50%, -50%);
+   -moz-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   -o-transform: translate(-50%, -50%);
+}
+.f{
+   position: absolute;
+   top: 57%;
+   left: 45%;
+   transform: translate(-50%, -50%);
+   -webkit-transform: translate(-50%, -50%);
+   -moz-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   -o-transform: translate(-50%, -50%);
+   background-color: red;
+}
+.g{
+   position: absolute;
+   top: 52%;
+   left: 58%;
+   transform: translate(-50%, -50%);
+   -webkit-transform: translate(-50%, -50%);
+   -moz-transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+   -o-transform: translate(-50%, -50%);
+   background-color: darkgreen;
+}

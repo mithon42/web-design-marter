@@ -1,0 +1,204 @@
+html,
+body {
+   width: 100vw;  
+   min-height: 100vh;
+   font-family: Arial, Helvetica, sans-serif;
+   background-color: #efefef;
+}
+
+
+/* Nav bar design start */
+nav{
+   width: 100%;
+   height: 100px;
+   background-color: #151d38;
+   color: #fff;
+}
+
+.navContainer{
+   display: flex;
+   align-items: center;
+   height: 100px;
+}
+
+.brandName h1{
+   font-size: 48px;
+   font-weight: 700;
+}
+
+.navItemContainer{
+   margin-left: auto;
+   display: flex;
+}
+
+.navItem{
+   margin-left: 24px;
+}
+
+/* TODO: set individual style later on */
+.navItem a,
+.navItem a:visited,
+.navItem a:active,
+.navItem a:hover{
+   font-size: 24px;
+   font-weight: 500;
+   color: #fff;
+   text-transform: uppercase;
+   text-decoration: none;
+}
+
+
+/* Profile Card Section Start */
+.profileCardContainer {
+   width: 100%;
+   height: 470px;
+   margin-top: 50px;
+   background-color: #fff;
+   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+   border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -ms-border-radius: 10px;
+   -o-border-radius: 10px;
+   display: flex;
+}
+
+.profilePictureContainer{
+   width: 470px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.imageSquareContainer{
+   width: 370px;
+   height: 370px;
+   border: 5px solid #151d38;
+   border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -ms-border-radius: 10px;
+   -o-border-radius: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.imageCircleContainer{
+   width: 305px;
+   height: 305px;
+   border: 5px solid #151d38;
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+}
+
+.imageCircleContainer img{
+   width: 100%;
+   height: 100%;
+}
+
+.profileInfoContainer{
+   width: 930px;
+}
+
+.profileInfo{
+   margin-top: 55px;
+   margin-left: 50px;
+}
+
+.profileName{
+   color: #333333;
+   font-size: 36px;
+   text-transform: uppercase;
+   letter-spacing: 0.04em;
+   font-weight: bold;
+}
+.profileTitle{
+   font-size: 24px;
+   font-weight: 600;
+   letter-spacing: 0.04em;
+   text-transform: capitalize;
+   color: #555555;
+   margin-top: 7px;
+}
+
+.socialLinks{
+   margin-top: 45px;
+   display: flex;
+   align-items: center;
+}
+
+.socialLinks img{
+   margin-right: 14px;
+}
+
+.skillChips{
+   display: flex;
+   margin-top: 20px;
+}
+.skillChip{
+   background-color: #151d38;
+   color: #fff;
+   padding: 8px 7px;
+   border-radius: 5px;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+   -ms-border-radius: 5px;
+   -o-border-radius: 5px;
+   text-transform: uppercase;
+   font-weight: 600;
+   font-size: 14px;
+   margin-right: 14px;
+   letter-spacing: 0.04em;
+}
+
+.profileBio{
+   font-style: normal;
+   font-weight: normal;
+   font-size: 18px;
+   line-height: 22px;
+   letter-spacing: 0.04em;
+   color: #555555;
+   margin-top: 42px;
+   margin-right: 147px;
+}
+/* Profile Card Section End */
+
+
+/* My Skills Section */
+.mySkillsSection{
+   width: 100%;
+   height: 490px;
+   margin-top: 50px;
+   background-color: #fff;
+   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
+   border-radius: 10px;
+   -webkit-border-radius: 10px;
+   -moz-border-radius: 10px;
+   -ms-border-radius: 10px;
+   -o-border-radius: 10px;
+   padding: 35px 14px;
+}
+
+.mySkillsHeading{
+   font-size: 36px;
+   font-weight: 500px;
+   font-style: normal;
+   letter-spacing: 0.04em;
+   color: #333333;
+   text-transform: uppercase;
+   margin-top: 35px;
+   margin-left: 35px;
+}
+
+.skillsContainer{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}

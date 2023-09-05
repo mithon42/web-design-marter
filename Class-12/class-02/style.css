@@ -1,0 +1,22 @@
+.container{
+   width: 300px;
+   margin: 10px auto;
+   border: 3px solid #ddd;
+}
+input:focus{
+   outline: none;
+   border: 1px solid tomato;
+}
+
+input:checked{
+   width: 20px;
+   height: 20px;
+}
+
+button{
+   padding: 5px 10px;
+}
+button:disabled{
+   color: tomato;
+   opacity: 0.5;
+}
